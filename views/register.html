@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/register_style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav class="navigation">
+            <div class="nav-bar-1">
+                <a href=""><img src="/img/logo-mercado-liebre.svg" alt=""></a>
+                <div class="boton-form">
+                    <input type="text" placeholder="Buscar productos, marcas, etc">
+                    <button class=""><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+                <div class="compra-cuotas">
+                    <i class="fa-solid fa-hand-holding-dollar"></i>
+                    <span>Comprá en cuotas y sin tarjeta de crédito</span>
+                </div>  
+            </div>
+            <div class="hamburguer">
+                <i class="fa-solid fa-bars hamburger"></i>
+            </div> 
+            <div class="nav-bar-2">
+                <ul id="menu">
+                    <li><a href="#">Ofertas</a></li>
+                    <li><a href="#">Tiendas oficiales</a></li>
+                    <li><a href="#">Vender</a></li>
+                    <li><a href="#">Ayuda</a></li>
+                </ul>
+                <ul id="menu-2">
+                    <li><a href="#">Crea tu cuenta <i class="fa-regular fa-id-card"></i></a></li>
+                    <li><a href="#">Ingresá <i class="fa-solid fa-right-to-bracket"></i></a></li>
+                    <li><a href="#">Mis compras <i class="fa-solid fa-basket-shopping"></i></a></li>
+                </ul>  
+            </div>
+        </nav>           
+    </header>
+    <main>
+        <div class="formulario">
+            <h1>Completa los datos para crear tu cuenta</h1>
+            <form action="" class="formulario-registro">
+                <div class="first-row d-flex">
+                    <input class="w-50" type="text" placeholder="Nombre">
+                    <input class="w-50" type="text" placeholder="Apellido">
+                </div>
+                <div class="second-row">
+                    <label for="fecha">Fecha de nacimiento</label>
+                    <input type="date" name="fecha">
+                </div>
+                <div class="third-row">
+                    <input type="text" placeholder="Dirección">
+                </div>
+                <div>
+                    <label for="perfil">Perfil del Usuario</label>
+                    <label><input type="radio" name="perfil">Comprar</label>
+                    <label><input type="radio" name="perfil">Vender</label>
+                </div>
+                <div class="fourth-row">
+                        <label for="categorias">Categorías de interés</label>
+                        <select name="categorias" id="categorias">
+                            <option value="">Electro</option>
+                            <option value="">Moda</option>
+                            <option value="">Hogar</option>
+                            <option value="">Juguetería</option>
+                            <option value="">Vida sana</option>
+                        </select>
+                </div>
+                <div class="fifth-row">
+                    <div>
+                        <label for="foto">Subir foto de perfil</label>
+                        <input type="file" accept=".jpg">
+                    </div>
+                </div>
+                <div class="sixth-row d-flex">
+                    <input class="w-50" type="text" placeholder="Elige tu contraseña">
+                    <input class="w-50" type="text" placeholder="Confirma tu contraseña">
+                </div>
+                <div class="seventh-row">
+                    <button class="send" type="submit">Enviar</button>
+                    <button class="reset" type="reset">Borrar</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <script src="https://kit.fontawesome.com/2396c6fc63.js" crossorigin="anonymous"></script>
+</body>
+</html>
