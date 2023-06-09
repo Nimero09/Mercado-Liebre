@@ -39,7 +39,7 @@ header {
 }
 
 .navigation {
-    max-width: 1200px;
+    max-width: 1280px;
     margin-left: auto;
     margin-right: auto;
     padding: 0 2rem;
@@ -164,7 +164,7 @@ form {
     width: 100%;
 }
 
-input {
+main input {
     width: 100%;
     padding: 10px;
     border: none;
@@ -172,7 +172,7 @@ input {
     border-radius: 10px;
 }
 
-button {
+main button {
     background-color: #EAC926;
     color: black;
     padding: 10px 15px;
